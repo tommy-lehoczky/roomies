@@ -1,5 +1,5 @@
 <template>
-  <div class="">
-    Shared Fridge
-  </div>
+    <div class="subpage">
+      Shared Fridge
+    </div>
 </template>

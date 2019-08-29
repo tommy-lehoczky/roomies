@@ -1,7 +1,13 @@
 <template>
   <div id="app">
     <navigation/>
-    <router-view></router-view>
+    <div class="wrapper">
+      <div class="container">
+        <transition name="page-transition" enter-active-class="animated fadeInRight" leave-active-class="animated fadeOutLeft">
+          <router-view></router-view>
+        </transition>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,4 +24,5 @@ export default {
 
 <style>
   @import './assets/css/style.css';
+  @import './assets/css/animate.css';
 </style>

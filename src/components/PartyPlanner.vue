@@ -1,5 +1,5 @@
 <template>
-  <div class="">
-    Party Planner
-  </div>
+    <div class="subpage">
+      Party Planner
+    </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="subpage">
     Chores Buddy
   </div>
 </template>
